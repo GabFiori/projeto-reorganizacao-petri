@@ -10,6 +10,6 @@ O objetivo do projeto original é simular todo o procedimento de uma árvore bin
 
 A branch "main" apresenta o código reestrutuado e reorganizado, enquanto a branch "codigo-original" apresenta o código-fonte original, sem nenhuma alteração em sua estrutura.
 
-Mudanças feitas:
+Mudanças feitas (as melhorias feitas estão documentadas dentro do próprio código):
 
 - Método "inserir" no arquivo ArvoreBinaria.java;
