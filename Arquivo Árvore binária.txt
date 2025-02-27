@@ -34,6 +34,20 @@ public class ArvoreBinaria {
                     }
                 }
             }
+            /*Problemas e Melhorias
+            Uso de pai desnecessário
+
+            A variável pai armazena o nó pai, mas já podemos definir atual.getEsquerda() ou atual.getDireita() diretamente.
+                    Código duplicado nas condições if(atual == null)
+
+                Tanto para a esquerda quanto para a direita, a lógica de atribuir novoNo ao filho do pai se repete. Isso pode ser simplificado.
+            Conversão para um loop mais claro
+
+             O while(true) pode ser reformulado para tornar o código mais intuitivo.
+                    Uso correto de else
+
+            Como o primeiro if já retorna se a raiz for nula, o else não é necessário.
+                    Adição de comentários explicativos.*/
 
         }
     }
