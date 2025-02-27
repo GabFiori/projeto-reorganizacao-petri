@@ -1,9 +1,7 @@
 # Projeto de Reorganização e Estruturação de um código
 
-#Este repositório está sendo utilizado no andamento do trabalho da UC de Boas Práticas de Programação.
-#O objetivo deste trabalho é realizar a melhoria de um código já existente, deixando-o mais organizado e com uma estrutura mais legível.
+Este repositório está sendo utilizado no andamento do trabalho da UC de Boas Práticas de Programação.
 
-#Alunos: 
-#Eduardo
-#Gabriel
-#Nicolas
+O objetivo deste trabalho é realizar a melhoria de um código já existente, deixando-o mais organizado e com uma estrutura mais legível.
+
+
