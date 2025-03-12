@@ -13,3 +13,5 @@ A branch "main" apresenta o código reestruturado e reorganizado, enquanto a bra
 Mudanças feitas (as melhorias feitas estão documentadas dentro do próprio código):
 
 - Método "inserir" no arquivo ArvoreBinaria.java;
+- Melhoria na classe Executora;
+- Melhoria na função "remover" no arquivo ArvoreBinaria.java;
