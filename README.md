@@ -1,6 +1,6 @@
 # Projeto de Reorganização e Estruturação de um código
 
-Alunos: Eduardo, Gabriel e Nicolas
+Alunos: Eduardo Bolotari, Gabriel Fiori Feliciano e Nicolas Berbert
 
 Este repositório está sendo utilizado no desenvolvimento de um trabalho da UC de Boas Práticas de Programação.
 
