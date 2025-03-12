@@ -59,3 +59,77 @@ public class Executora {
         }
     }
 }
+
+/*Problemas Identificados e Melhorias
+Código comentado desnecessário
+
+Há várias chamadas de arvoreBinaria.inserir() comentadas que podem ser removidas.
+Uso de variáveis desnecessárias
+
+escolha e escolha2 servem ao mesmo propósito. Podemos usar apenas uma variável para armazenar a entrada do usuário.
+Scanner não fechado
+
+Scanner teclado deve ser fechado no final para evitar vazamento de recursos.
+Loop while pode ser simplificado
+
+O código pode ser reestruturado para maior legibilidade, evitando o uso de opcao = 100; inicialmente.
+Adicionar um default no switch-case
+
+Para tratar entradas inválidas do usuário.*/
+
+//Nova classe executora
+
+/*import java.util.Scanner;
+
+public class Executora {
+    public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        ArvoreBinaria arvoreBinaria = new ArvoreBinaria();
+        int opcao;
+
+        do {
+            System.out.println("\nEscolha uma opção:");
+            System.out.println("1 - Remover");
+            System.out.println("2 - Pré-Ordem");
+            System.out.println("3 - Em Ordem");
+            System.out.println("4 - Pós-Ordem");
+            System.out.println("5 - Inserir");
+            System.out.println("6 - Encerrar");
+            System.out.print("Opção: ");
+
+            opcao = teclado.nextInt();
+
+            switch (opcao) {
+                case 1:
+                    System.out.print("Digite o valor a ser removido: ");
+                    int removerValor = teclado.nextInt();
+                    arvoreBinaria.remover(removerValor);
+                    break;
+                case 2:
+                    System.out.println("Imprimindo árvore em Pré-Ordem...");
+                    arvoreBinaria.preOrdem(arvoreBinaria.getRaiz());
+                    break;
+                case 3:
+                    System.out.println("Imprimindo árvore em Ordem...");
+                    arvoreBinaria.emOrdem(arvoreBinaria.getRaiz());
+                    break;
+                case 4:
+                    System.out.println("Imprimindo árvore em Pós-Ordem...");
+                    arvoreBinaria.posOrdem(arvoreBinaria.getRaiz());
+                    break;
+                case 5:
+                    System.out.print("Digite o valor a ser inserido: ");
+                    int inserirValor = teclado.nextInt();
+                    arvoreBinaria.inserir(inserirValor);
+                    break;
+                case 6:
+                    System.out.println("Encerrando...");
+                    break;
+                default:
+                    System.out.println("Opção inválida! Tente novamente.");
+            }
+        } while (opcao != 6);
+
+        teclado.close(); // Fechando o Scanner
+    }
+}*/
